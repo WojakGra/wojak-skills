@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wojak-skills",
+  "description": "Jakub Wojdziak's personal skills marketplace for Claude Code.",
+  "owner": {
+    "name": "Jakub Wojdziak",
+    "url": "https://github.com/WojakGra"
+  },
+  "plugins": [
+    {
+      "name": "wojak-skills",
+      "source": "./",
+      "description": "Agent skills for real engineering work: reusable techniques, patterns and workflows.",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "engineering",
+        "productivity"
+      ]
+    }
+  ]
+}

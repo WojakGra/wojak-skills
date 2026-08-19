@@ -1,0 +1,40 @@
+{
+  "name": "wojak-skills",
+  "version": "0.1.0",
+  "description": "Jakub Wojdziak's agent skills for Claude Code: reusable engineering and productivity workflows.",
+  "author": {
+    "name": "Jakub Wojdziak",
+    "url": "https://github.com/WojakGra"
+  },
+  "homepage": "https://github.com/WojakGra/wojak-skills",
+  "repository": "https://github.com/WojakGra/wojak-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "claude-code",
+    "engineering",
+    "productivity",
+    "workflows"
+  ],
+  "skills": [
+    "./skills/engineering/codebase-design",
+    "./skills/engineering/dispatching-parallel-agents",
+    "./skills/engineering/executing-plans",
+    "./skills/engineering/finishing-a-development-branch",
+    "./skills/engineering/ponytail",
+    "./skills/engineering/ponytail-review",
+    "./skills/engineering/receiving-code-review",
+    "./skills/engineering/requesting-code-review",
+    "./skills/engineering/subagent-driven-development",
+    "./skills/engineering/systematic-debugging",
+    "./skills/engineering/test-driven-development",
+    "./skills/engineering/using-git-worktrees",
+    "./skills/engineering/verification-before-completion",
+    "./skills/engineering/writing-plans",
+    "./skills/meta/writing-skills",
+    "./skills/productivity/brainstorming",
+    "./skills/productivity/grilling",
+    "./skills/productivity/handoff",
+    "./skills/productivity/writing-for-agents"
+  ]
+}

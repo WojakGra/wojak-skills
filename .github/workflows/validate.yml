@@ -1,0 +1,14 @@
+name: validate
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  skills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate skills and manifest
+        run: sh scripts/validate-skills.sh
