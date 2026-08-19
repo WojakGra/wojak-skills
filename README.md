@@ -6,12 +6,27 @@ The set is curated rather than written from scratch. Most skills are adapted fro
 
 ## Install
 
+This repository is private, which rules nothing out: Claude Code shells out to `git` for remote marketplaces, so any machine whose git can already read the repo can install it.
+
+**From a local clone (no credentials needed):**
+
+```
+/plugin marketplace add /path/to/wojak-skills
+/plugin install wojak-skills@wojak-skills
+```
+
+The marketplace is registered as a `Directory` source and reads the working tree live, so `git pull` is all it takes to pick up changes.
+
+**From GitHub (needs git credentials for a private repo):**
+
 ```
 /plugin marketplace add WojakGra/wojak-skills
 /plugin install wojak-skills@wojak-skills
 ```
 
-To use the skills without installing the plugin, clone the repo and symlink them into `~/.claude/skills`:
+This clones over HTTPS using whatever git credential helper is configured (Git Credential Manager, or `gh auth login`). On a machine with no credentials for the repo, use a local clone instead, or make the repo public. Run `claude plugin marketplace update wojak-skills` to pull later changes.
+
+**Without the plugin system**, clone the repo and symlink the skills into `~/.claude/skills`:
 
 ```sh
 sh scripts/link-skills.sh
