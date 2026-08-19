@@ -20,6 +20,12 @@ Vendored: `codebase-design`, `grilling`, `writing-for-agents`, `handoff`.
 
 Vendored: `ponytail`, `ponytail-review`.
 
+## cursor/plugins (pstack)
+
+<https://github.com/cursor/plugins/tree/main/pstack> - Copyright (c) 2026 Lauren Tan, MIT.
+
+Vendored: `unslop`.
+
 ## Adaptations applied
 
 - Cross-skill references in the `superpowers:<name>` namespace were rewritten to plain skill names, so they resolve inside this plugin.

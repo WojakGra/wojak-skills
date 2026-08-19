@@ -35,6 +35,7 @@
     "./skills/productivity/brainstorming",
     "./skills/productivity/grilling",
     "./skills/productivity/handoff",
+    "./skills/productivity/unslop",
     "./skills/productivity/writing-for-agents"
   ]
 }

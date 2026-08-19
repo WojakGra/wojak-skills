@@ -60,6 +60,7 @@ sh scripts/link-skills.sh
 | [brainstorming](skills/productivity/brainstorming/SKILL.md) | Turn an idea into a design and a spec before any implementation. |
 | [grilling](skills/productivity/grilling/SKILL.md) | Interview round by round until every branch of the design tree is settled. |
 | [handoff](skills/productivity/handoff/SKILL.md) | Compact the session into a handoff document for the next agent. |
+| [unslop](skills/productivity/unslop/SKILL.md) | Strip AI tells out of writing and put a voice back in. |
 | [writing-for-agents](skills/productivity/writing-for-agents/SKILL.md) | Write instructions and docs that agents actually follow. |
 
 ### Meta
