@@ -11,10 +11,11 @@ Buckets:
 - `engineering/` - code work. Promoted.
 - `productivity/` - non-code workflow. Promoted.
 - `meta/` - skills about writing skills. Promoted.
+- `principles/` - one-rule principle skills, all user-invoked. Promoted.
 - `in-progress/` - public but unfinished. Not shipped.
 - `deprecated/` - kept for reference. Not shipped.
 
-Every promoted skill must appear in the `skills` array of `.claude-plugin/plugin.json` **and** in the skill tables in `README.md`. Unpromoted skills must appear in neither. Run `sh scripts/validate-skills.sh` after any change; it checks frontmatter, name/directory agreement, kebab-case, the 1024-char frontmatter limit, duplicate names, manifest sync, and README coverage. `claude plugin validate . --strict` checks the manifests themselves.
+Promoted means every bucket except `in-progress/` and `deprecated/`; the scripts derive the list from the directory tree, so a new bucket needs no script edit. Every promoted skill must appear in the `skills` array of `.claude-plugin/plugin.json` **and** in the skill tables in `README.md`. Unpromoted skills must appear in neither. Run `sh scripts/validate-skills.sh` after any change; it checks frontmatter, name/directory agreement, kebab-case, the 1024-char frontmatter limit, duplicate names, manifest sync, and README coverage. `claude plugin validate . --strict` checks the manifests themselves.
 
 ## Writing or editing a skill
 

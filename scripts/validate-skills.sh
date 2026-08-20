@@ -10,7 +10,8 @@ fail=0
 err() { echo "ERROR: $*" >&2; fail=1; }
 warn() { echo "warn:  $*" >&2; }
 
-promoted="skills/engineering skills/productivity skills/meta"
+promoted="$(find skills -mindepth 1 -maxdepth 1 -type d ! -name in-progress ! -name deprecated | sort | tr "
+" " ")"
 unpromoted="skills/in-progress skills/deprecated"
 
 # --- per-skill checks -------------------------------------------------------
