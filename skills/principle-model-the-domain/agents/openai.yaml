@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-model-the-domain"
+  short_description: "Run principle-model-the-domain only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

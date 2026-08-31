@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-exhaust-the-design-space"
+  short_description: "Run principle-exhaust-the-design-space only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-prove-it-works"
+  short_description: "Run principle-prove-it-works only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

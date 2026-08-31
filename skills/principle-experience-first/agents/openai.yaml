@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-experience-first"
+  short_description: "Run principle-experience-first only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

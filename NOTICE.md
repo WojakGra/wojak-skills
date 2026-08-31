@@ -6,7 +6,7 @@ This repository vendors and adapts skills from three MIT-licensed upstream proje
 
 <https://github.com/obra/superpowers> - Copyright (c) 2025 Jesse Vincent, MIT.
 
-Vendored: `systematic-debugging`, `test-driven-development`, `writing-plans`, `executing-plans`, `subagent-driven-development`, `dispatching-parallel-agents`, `requesting-code-review`, `receiving-code-review`, `verification-before-completion`, `using-git-worktrees`, `finishing-a-development-branch`, `brainstorming`, plus `anthropic-best-practices.md` and `testing-skills-with-subagents.md` under `skills/meta/writing-skills/`.
+Vendored: `systematic-debugging`, `test-driven-development`, `writing-plans`, `executing-plans`, `subagent-driven-development`, `dispatching-parallel-agents`, `requesting-code-review`, `receiving-code-review`, `verification-before-completion`, `using-git-worktrees`, `finishing-a-development-branch`, `brainstorming`, plus `anthropic-best-practices.md` and `testing-skills-with-subagents.md` under `skills/writing-skills/`.
 
 ## mattpocock/skills
 
@@ -24,7 +24,7 @@ Vendored: `ponytail`, `ponytail-review`.
 
 <https://github.com/cursor/plugins/tree/main/pstack> - Copyright (c) 2026 Lauren Tan, MIT.
 
-Vendored: `unslop`, `blast-radius`, `create-verification-skill`, `maintain-verification-skill`, `typescript-best-practices`, `technical-writing`, `show-me-your-work`, `bro`, and the twenty-one `principle-*` skills under `skills/principles/`.
+Vendored: `unslop`, `blast-radius`, `create-verification-skill`, `maintain-verification-skill`, `typescript-best-practices`, `technical-writing`, `show-me-your-work`, `bro`, and the twenty-one `principle-*` skills under `skills/`.
 
 ## Adaptations applied
 

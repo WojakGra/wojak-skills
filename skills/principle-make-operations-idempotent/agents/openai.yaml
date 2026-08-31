@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-make-operations-idempotent"
+  short_description: "Run principle-make-operations-idempotent only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

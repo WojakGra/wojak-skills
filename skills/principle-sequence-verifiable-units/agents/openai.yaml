@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-sequence-verifiable-units"
+  short_description: "Run principle-sequence-verifiable-units only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

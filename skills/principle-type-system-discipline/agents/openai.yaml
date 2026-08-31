@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-type-system-discipline"
+  short_description: "Run principle-type-system-discipline only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

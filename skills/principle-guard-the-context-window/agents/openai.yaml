@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-guard-the-context-window"
+  short_description: "Run principle-guard-the-context-window only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

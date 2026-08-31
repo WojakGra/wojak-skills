@@ -1,0 +1,42 @@
+{
+  "name": "wojak-skills",
+  "version": "0.2.0",
+  "description": "Reusable engineering and productivity workflows for coding agents.",
+  "author": {
+    "name": "Jakub Wojdziak",
+    "url": "https://github.com/WojakGra"
+  },
+  "homepage": "https://github.com/WojakGra/wojak-skills",
+  "repository": "https://github.com/WojakGra/wojak-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "codex",
+    "engineering",
+    "productivity",
+    "workflows"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Wojak Skills",
+    "shortDescription": "Engineering and productivity workflows for coding agents",
+    "longDescription": "A curated collection of reusable workflows for design, planning, test-driven development, debugging, code review, delivery, technical writing, and focused agent collaboration.",
+    "developerName": "Jakub Wojdziak",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/WojakGra/wojak-skills",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Design this change before implementation.",
+      "Debug this failure systematically.",
+      "Review this diff for unnecessary complexity."
+    ],
+    "brandColor": "#F59E0B",
+    "screenshots": []
+  }
+}

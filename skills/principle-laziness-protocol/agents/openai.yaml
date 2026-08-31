@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-laziness-protocol"
+  short_description: "Run principle-laziness-protocol only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

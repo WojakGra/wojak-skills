@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-build-the-lever"
+  short_description: "Run principle-build-the-lever only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

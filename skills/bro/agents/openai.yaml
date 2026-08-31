@@ -1,0 +1,5 @@
+interface:
+  display_name: "bro"
+  short_description: "Run bro only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

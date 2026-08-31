@@ -1,0 +1,5 @@
+interface:
+  display_name: "show-me-your-work"
+  short_description: "Run show-me-your-work only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

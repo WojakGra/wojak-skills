@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-migrate-callers-then-delete-legacy-apis"
+  short_description: "Run principle-migrate-callers-then-delete-legacy-apis only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

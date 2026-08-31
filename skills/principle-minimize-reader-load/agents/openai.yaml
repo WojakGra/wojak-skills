@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-minimize-reader-load"
+  short_description: "Run principle-minimize-reader-load only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

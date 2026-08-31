@@ -1,25 +1,25 @@
 # Working in this repo
 
-This is a Claude Code plugin that ships agent skills. Nothing here is application code.
+This is a Claude Code and Codex plugin that ships agent skills. Nothing here is application code.
 
 ## Structure
 
-Skills live at `skills/<bucket>/<skill-name>/SKILL.md`. The directory name must equal the `name` in the frontmatter, and names are unique across all buckets (Claude Code loads them into one flat namespace).
+Promoted skills live at `skills/<skill-name>/SKILL.md`. The directory name must equal the `name` in the frontmatter. This flat tree is shared by Claude Code and Codex.
 
-Buckets:
+README categories:
 
-- `engineering/` - code work. Promoted.
-- `productivity/` - non-code workflow. Promoted.
-- `meta/` - skills about writing skills. Promoted.
-- `principles/` - one-rule principle skills, all user-invoked. Promoted.
-- `in-progress/` - public but unfinished. Not shipped.
-- `deprecated/` - kept for reference. Not shipped.
+- Engineering - code work.
+- Productivity - non-code workflow.
+- Meta - skills about writing skills.
+- Principles - one-rule principle skills.
+- `unpromoted/in-progress/` - public but unfinished. Not shipped.
+- `unpromoted/deprecated/` - kept for reference. Not shipped.
 
-Promoted means every bucket except `in-progress/` and `deprecated/`; the scripts derive the list from the directory tree, so a new bucket needs no script edit. Every promoted skill must appear in the `skills` array of `.claude-plugin/plugin.json` **and** in the skill tables in `README.md`. Unpromoted skills must appear in neither. Run `sh scripts/validate-skills.sh` after any change; it checks frontmatter, name/directory agreement, kebab-case, the 1024-char frontmatter limit, duplicate names, manifest sync, and README coverage. `claude plugin validate . --strict` checks the manifests themselves.
+Every directory directly under `skills/` is promoted and must appear in the `skills` array of `.claude-plugin/plugin.json` **and** in the skill tables in `README.md`. Unpromoted skills must live under `unpromoted/` and appear in neither. Run `sh scripts/validate-skills.sh` after any change; it checks frontmatter, name/directory agreement, kebab-case, the 1024-char frontmatter limit, duplicate names, manifest sync, README coverage, and both plugin manifests. `claude plugin validate . --strict` checks the Claude manifests themselves.
 
 ## Writing or editing a skill
 
-Follow `skills/meta/writing-skills/SKILL.md`. The two rules that break skills most often:
+Follow `skills/writing-skills/SKILL.md`. The two rules that break skills most often:
 
 - The `description` states **triggering conditions only**. A description that summarizes the workflow gives the agent a shortcut and it stops reading the body.
 - Keep `SKILL.md` under roughly 200 lines. Heavy reference material goes in a sibling file the skill links, and deterministic steps go in a script.

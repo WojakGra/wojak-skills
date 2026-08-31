@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-separate-before-serializing-shared-state"
+  short_description: "Run principle-separate-before-serializing-shared-state only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

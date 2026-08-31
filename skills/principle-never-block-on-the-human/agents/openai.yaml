@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-never-block-on-the-human"
+  short_description: "Run principle-never-block-on-the-human only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

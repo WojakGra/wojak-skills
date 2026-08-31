@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-subtract-before-you-add"
+  short_description: "Run principle-subtract-before-you-add only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

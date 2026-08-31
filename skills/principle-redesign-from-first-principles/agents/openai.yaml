@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-redesign-from-first-principles"
+  short_description: "Run principle-redesign-from-first-principles only when explicitly requested."
+policy:
+  allow_implicit_invocation: false

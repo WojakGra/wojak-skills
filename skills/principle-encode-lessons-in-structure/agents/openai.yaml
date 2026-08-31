@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-encode-lessons-in-structure"
+  short_description: "Run principle-encode-lessons-in-structure only when explicitly requested."
+policy:
+  allow_implicit_invocation: false
